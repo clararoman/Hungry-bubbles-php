@@ -1,0 +1,588 @@
+.headerImg.page-1{
+	width: 300px;
+	margin: 0px auto;
+}
+
+.headerImg.page-n{
+	position: absolute;
+    width: 23%;
+    top: 0px;
+    padding: 9px;
+}
+
+#logo{
+	width: inherit;
+}
+
+#session {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.02em;
+}
+
+body{
+	font-family: 'Segoe UI';
+	width:100%;
+	margin: 0px;
+}
+
+header .menu{
+	margin: 0 auto;
+	background-color: #2b2b2b;
+	padding: 30px;
+}
+
+ul.topMenu{
+	overflow: hidden;
+	padding: 10px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+ul.topMenu li:first-child{
+	width: 80px;
+}
+
+ul.topMenu li:first-child img{
+	width: 80px;
+}
+
+ul.topMenu li + li{
+	padding-left: 10px;
+}
+
+ul.topMenu li{
+	float:left;
+	list-style: none;
+	padding:10px 0px;
+}
+
+ul.topMenu li a{
+	padding: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+
+ul.topMenu li a.active{
+	border-bottom: 3px solid white;
+	color: white;
+}
+
+#sketchDiv{
+	display: flex; 
+}
+
+canvas{
+	margin: 0 auto;
+}
+
+#pageContainer{
+	width: 70%;
+	margin: auto;
+}
+
+h1{
+	font-family: Helvetica;
+	text-align: center; 
+}
+/*Buttons*/
+
+button.play{
+	width: 90px;
+	height: 90px;
+	border-radius: 25px;
+	margin: 5px;
+	border-width: 0px;
+	text-decoration: none;
+}
+
+.lockedButton{
+	background-color: grey;
+	background-image: url("Img/lock.png");
+	background-repeat: no-repeat;
+	background-size: 75% 75%;
+	background-position: center;
+}
+
+.unlockedButton{
+	width: 90px;
+	height: 90px;
+	border-radius: 25px;
+	margin: 5px;
+	border-width: 0px;
+	text-decoration: none;
+	background-color: green;
+	background-image: url("Img/unlock.png");
+	background-repeat: no-repeat;
+	background-size: 75% 75%;
+	background-position: center;
+}
+
+.unlockedButton:hover{
+	opacity: 0.6;
+}
+
+
+.buttonDiv{
+	display: inline-block;
+	text-align: center;
+}
+
+.headerButt{
+	width: 130px;
+	height: 130px;
+	border-style: none;	
+	float: left;
+	font-size: 18px;
+	color: white;
+	background: black;
+	overflow: auto;
+	border-radius: 50%;
+	padding: 30px;
+}
+
+.headerButt:hover{
+	color: grey;
+
+}
+
+#instructions{
+	padding: 10px;
+	width: 40%;
+	margin: auto;
+}
+
+#gameHeader{
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+#skeleton{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+/*How to play Modal*/ 
+.popup{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+.popup-content{
+	background-color: #fefefe;
+	margin-top: 5%;
+	margin-left: 65%;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 20%;
+}
+
+/*Customize Modal*/
+
+
+.popup2{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content2{
+	background-color: #fefefe;
+	margin-top: 20%;
+	margin-left: 65%;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 160px;
+
+}
+
+#customBall{
+	width: 80px;
+	height: 80px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	margin: auto;
+	background: white;
+
+}
+
+h2{
+	text-align: center;
+}
+
+#close{
+	color: #aaa;
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#close:hover, 
+#close:focus{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+p{
+	margin: 0px;
+}
+
+footer{
+	background-color: #2b2b2b;
+    margin-top: 33px;
+    font-weight: bold;
+    color: white;
+    position:relative;
+}
+
+footer p{
+	font-weight: normal;
+}
+
+footer ul{
+	overflow: hidden;
+    width: 40em;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+}
+
+footer li{
+	list-style: none;
+	float: left;
+	padding: 30px;
+}
+
+footer .date{
+	position: absolute;
+	bottom: 0em;
+	right: 0em;
+	font-weight: normal;
+}
+
+
+/*ABOUT PAGE*/
+
+#sofiapic{
+	width: 20%;
+}
+
+#clarapic{
+	width: 20%;
+}
+
+#bio{
+	background-color: rgba(255, 0, 10, 0.5);
+	padding: 30px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* STORE PAGE */
+
+#search input {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    width: 16em;
+    height: 2em;
+}
+
+#search button{
+	height: 2.7em;
+    border-radius: 0px;
+    background-color: #83a9c3;
+    border: 0px solid #ccc;
+    color: white;
+    padding: 4px 4px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#storeCont {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#storeCont #search{
+   text-align: center;
+}
+
+#storeCont h2{
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.store {
+    width: 60em;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.store li{
+	list-style: none;
+    float: left;
+    width: 13em;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.store li h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.store li img{
+    width: 12em;
+}
+
+.storeItem button{
+	height: 3.7em;
+    width: 11em;
+    border-radius: 0px;
+    background-color: #83a9c3;
+    border: 0px solid #ccc;
+    color: white;
+    padding: 4px 4px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+/* ITEM PAGE */
+
+.inventory {
+    width: 60em;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inventory li{
+	list-style: none;
+    float: left;
+    width: 13em;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.inventory li h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.inventory li img{
+    width: 12em;
+}
+
+.invItem button{
+	height: 3.7em;
+    width: 11em;
+    border-radius: 0px;
+    background-color: #83a9c3;
+    border: 0px solid #ccc;
+    color: white;
+    padding: 4px 4px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+/*BUY PAGE (Shows up of not logged in)*/
+h4.buy.link{
+	text-align: center;
+}
+
+h4.buy.link a{
+	width: 30%;
+	font-family: 'Segoe UI';
+	font-size:0.8em;
+    margin-top: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    border: 0px;
+    background-image: linear-gradient(145deg,#0360af,#1692fb);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTACT PAGE */
+
+#contact{
+	overflow: hidden;
+}
+
+#contact li{
+	background-color: lightblue;
+	list-style: none;
+	float: left;
+	height: 100px;
+	width:100px;
+	margin: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+/* LOG IN PAGE */
+
+#loginResult {
+    width: 26%;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    color: #757575;
+}
+
+
+.adminlink{
+	margin: 20px auto;
+	width: 26%;
+}
+.adminlink a{
+   font-weight: bold;
+    text-decoration: none;
+    color: #1378ce;
+    background-color: #e5f6fb;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.adminlink a:hover{
+    color: white;
+    background-color: #b4d1da;
+}
+
+#loginForm {
+    padding: 20px;
+    width: 26%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #e2e2e2;
+}
+
+#loginForm input{
+	width: 80%;
+}
+
+#loginForm .lab{
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin: 10px 0px;
+	color: #757575;
+}
+
+#loginBtn{
+	width: 30%;
+	font-family: 'Segoe UI';
+	font-size:0.8em;
+    margin-top: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    border: 0px;
+    background-image: linear-gradient(145deg,#0360af,#1692fb);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+
+}
+
+#logoutBtn{
+	width: 30%;
+    font-size: 0.8em;
+    margin-top: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    border: 1px solid #de2020;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #de2020;
+    text-decoration: none;
+}
+
+
+/*ADMIN PAGE*/
+
+#adminpage_wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.userInfo{
+	margin: 20px;
+	width: 100%;
+}
+
+.ballManage{
+	margin: 20px;
+	width: 50%;
+}
+
+.ballManage table{
+	border-collapse: collapse;
+}
+
+.ballManage td{
+	padding: 5px;
+	border: 1px solid #b7b7b7;
+}
+
+.ballManage tr:nth-child(even){
+	background:#ccc;
+}
+
+.addNew{
+	margin: 20px;
+}
+
+.addUser{
+	width: 100%;
+	margin: 20px;
+}
+
+.galleryimg{
+	height: 100px;
+}
+
+
+
